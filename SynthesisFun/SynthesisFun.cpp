@@ -94,7 +94,7 @@ int main()
         console.Draw(0, 20, L"Use up/down keys to modify amplitude.");
         console.Draw(0, 21, L"Select waveform with number keys.");
         console.Draw(0, 22, L"Play notes using last two rows on keyboard.");
-        console.Draw(0, 22, L"Press escape to quit.");
+        console.Draw(0, 23, L"Press escape to quit.");
 
         if (!keyPressed)
             frequency = 0;
